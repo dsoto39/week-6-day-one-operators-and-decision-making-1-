@@ -48,7 +48,7 @@ print(my_bool)
 # if the user's  is between 18 - 21 , print they can vote, other wise print better luck next time.
 age = int(input("What is your age?"))
 
-if age >=18 and age <=21:
+if age >=18:
   print("You can vote!")
 else:
   print("You cannot vote")
