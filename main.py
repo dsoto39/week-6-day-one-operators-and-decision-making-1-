@@ -34,13 +34,24 @@ print(seconds)
 # <= less or equal
 # == equal
 # != different or not equal to
+my_bool = 10 == 20 
+print(my_bool)#false
+my_bool = 5+5 == 10-0
+print(my_bool)#true
+ny_bool = 'white' == 'White'
+print(my_bool)
+my_bool = 100.0 ==100
+print(my_bool)
 
 # Comparison Operators Practice 1:
 # ask the user for their age
 # if the user's  is between 18 - 21 , print they can vote, other wise print better luck next time.
+age = int(input("What is your age?"))
 
-
-
+if age >=18 and age <=21:
+  print("You can vote!")
+else:
+  print("You cannot vote")
 
 
 # Comparison Operators Practice  2:
