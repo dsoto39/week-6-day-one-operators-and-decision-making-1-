@@ -56,8 +56,10 @@ else:
 
 # Comparison Operators Practice  2:
 # Create two variables (num1 and num2) with the following values: 36 and 17. Check if num1 is greater than or equal to num2 and store the result of that comparison in a variable called my_bool
-
-
+# num1 = 36
+# num2 = 17
+# mybool = int(input("What is your number?"))
+# if mybool =num2
 
 
 # Comparison Operators Practice  3:
@@ -83,7 +85,9 @@ else:
 
 
 ##############################logical operators##################################################
-
+text = "This sentence is short" 
+my_bool= ('sentence' in text) and ('python' not in text)
+print(my_bool)
 
 # Logical Operators Practice #1
 # Create three variables (num1, num2, and num3):
